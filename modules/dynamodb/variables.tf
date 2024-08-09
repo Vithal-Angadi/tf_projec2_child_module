@@ -1,6 +1,6 @@
-variable "dynamodb_table" {
+variable "dynamodb_name" {
     type = string
-    default = ""  
+    default =""  
 }
 
 variable "hash_key" {
