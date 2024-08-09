@@ -1,9 +1,9 @@
 variable "s3_bucket_name"{
     type=string
-    default="tf-s3-project2-090824"
+    default=""
 }
 
 variable "sse_algorithm"{
     type=string
-    default="AES256"
+    default=""
 }
